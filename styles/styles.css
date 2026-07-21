@@ -171,10 +171,10 @@ width:100%;
 
 .figure img {
   width: 100%;
-  max-width: 250px;
-  height:auto;
-  display:block;
-  margin:auto;
+  max-width: 150px;
+  height: auto;
+  display: block;
+  margin: auto;
   border-radius: 20px;
   box-shadow: var(--shadow);
   transition: .4s;
@@ -362,7 +362,7 @@ a {
 
   .profile-img {
     max-width:100%;
-    height:auto;
+    height: 100%;
   }
 }
 /* TABLET */
@@ -393,6 +393,8 @@ grid-template-columns:2fr 1fr;
   text-decoration:none;
   color:var(--white);
   transition:.3s;
+  flex-direction: column;
+  text-align: center;
 }
 
 .project-card:hover{
