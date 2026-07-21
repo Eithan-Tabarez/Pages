@@ -132,7 +132,7 @@ width:100%;
 /* SECCIONES */
 .section{
   /*display:flex;*/
-  flex-direction:center;
+  flex-direction:column;
   align-items:center;
   gap:30px;
   padding:40px;
@@ -241,7 +241,7 @@ a {
 
 /* IMAGEN DE PERFIL */
 .profile-img {
-  width: 250px;
+  width: 50px;
   max-width: 100%;
   height: auto;
   object-fit: cover;
