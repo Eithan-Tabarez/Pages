@@ -314,13 +314,16 @@ a {
 }
 
 /* RESPONSIVE */
+/* MOBILE */
 @media (max-width: 900px) {
 
   .header {
     flex-direction: column;
     gap: 20px;
   }
-
+ .logo{
+    width: 50px;
+  }
   .nav {
     justify-content: center;
   }
@@ -365,10 +368,28 @@ a {
     height: 100%;
   }
 }
+/* SMALL MOBILES*/
+@media (max-width: 480px){
+.logo{
+  width: 40px;
+}
+.header{
+  padding: 15px 5%;
+}
+.nav ul{
+  gap: 12px;
+}
+.nav a{
+  font-size: .9rem;
+}
+}
 /* TABLET */
 @media (min-width:768px){
 .section{
 flex-direction:row;
+}
+.figure img{
+  max-width: 150px;
 }
 }
 /* DESKTOP */
